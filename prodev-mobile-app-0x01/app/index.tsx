@@ -29,11 +29,9 @@ const styles = StyleSheet.create({
 export default function Index() {
   return (
     <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
+      style={
+        styles.container
+      }
     >
       <Text>Entry Screen - Awesome.</Text>
       <Text style={styles.largeText}>Typescript is great if you practice more</Text>
